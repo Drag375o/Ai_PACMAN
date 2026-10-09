@@ -2,11 +2,11 @@
 
 A grid-based Pac-Man maze where the player character is driven by A* pathfinding.
 The AI selects which pellet to pursue, routes to it around walls, and treats
-cells near ghosts as expensive to walk through — so avoidance emerges from the
+cells near ghosts as expensive to walk through , so avoidance emerges from the
 cost function rather than from hard-coded rules.
 
 Built with Python and Pygame. No external AI APIs, no machine-learning model,
-no assets — everything is drawn with primitive shapes.
+no assets : everything is drawn with primitive shapes.
 
 ![AI Pac-Man showing the ghost danger field and the planned A* route](Ai_PACMAN/v1.png)
 ---
